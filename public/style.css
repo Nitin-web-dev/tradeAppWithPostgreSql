@@ -1,0 +1,218 @@
+*{
+    margin:0;
+    
+    font-family: 'Catamaran', sans-serif;
+    color: white;
+    /* font-size: 20px; */
+    
+}
+
+.main{
+    background-color: #181c2e;
+    height:auto;
+}
+/* header section */
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .name {
+    /* background-color: #f1f1f1; */
+    padding: 10px;
+    flex: 50%;
+  }
+  
+  .side {
+    /* background-color: white; */
+    padding: 10px;
+    flex: 50%;
+  }
+  .menu {
+    /* background-color: dodgerblue; */
+    padding: 10px;
+    flex: 50%;
+    
+  }
+  /* Responsive layout - makes a one column-layout instead of two-column layout */
+  @media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
+  }
+  .name > h1{
+    font-size: 40px;
+    text-align: left;
+    padding-left: 10px;
+    color:darkturquoise;
+  }
+  select{
+    background-color: #4e5269;
+    border: none;
+  }
+  .menu > select{
+    color:white;
+    font-weight:bold;
+    padding: 3px 8px;
+    margin-left: 15px;
+    border-radius: 7px;
+  }
+  .menu > a{
+    text-decoration: none;
+    color:white;
+    font-size: 15px;
+    background-color:  #4e5269;
+    padding: 3px 7px;
+    border-radius: 8px;
+    margin-left: 10px;
+  }
+  .side > a{
+    text-decoration: none;
+    color:white;
+    background-color:darkturquoise;
+    padding: 3px 10px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+  }
+ 
+  /* para */
+  p{
+    font-size: 25px;
+    text-align: center;
+    color: rgb(131, 131, 131);
+  }
+  .name1 {
+    /* background-color: #f1f1f1; */
+    padding: 3px 10px;
+    margin: 0;
+    flex: 20%;
+    font-size: 30px;
+    color:darkturquoise;
+    font-weight:bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .time1{
+    font-size: 15px;
+
+  }
+  .name2 {
+    /* background-color: saddlebrown; */
+    padding: 3px 10px;
+    margin: 0;
+    flex: 20%;
+    font-size: 30px;
+    color:darkturquoise;
+    font-weight:bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .name3 {
+    /* background-color: yellow; */
+    padding: 3px 10px;
+    margin: 0;
+    flex: 60%;
+    font-size: 50px;
+    font-weight:bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .name4 {
+    /* background-color: red; */
+    padding: 3px 10px;
+    margin: 0;
+    flex: 20%;
+    font-size: 30px;
+    color:darkturquoise;
+    font-weight:bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .name5 {
+    /* background-color: #f1f1f1; */
+    padding: 3px 10px;
+    margin: 0;
+    flex: 20%;
+    font-size: 30px;
+    color:darkturquoise;
+    font-weight:bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  /* table */
+  
+  .container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+  }
+    .col-1 {
+      flex-basis: 5%;
+    }
+    .col-2 {
+      flex-basis: 15%;
+    }
+    .col-3 {
+      flex-basis: 25%;
+    }
+    .col-4 {
+      flex-basis: 30%;
+    }
+    .col-5 {
+        flex-basis: 5%;
+    }
+    .col-6 {
+        flex-basis: 20%;
+    }
+    table {
+        width: 100%;
+        max-width: 100%;
+        border-collapse: separate;
+        border-spacing: 0 1em;
+        margin: 0;
+      }
+      th {
+        padding: 0 12px;
+        color:#4d4d4e;
+        font-weight:bolder;
+        font-size: 25px;
+        
+      }
+        h4 {
+          font-family: "Oswald";
+          font-size: 24px;
+          opacity: 0.45;
+          letter-spacing: 1px;
+          margin: 0;
+          margin-bottom: -5px;
+        }
+      
+      td {
+        background-color:  #4e5269;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-size: 20px;
+    }
+        a{
+          color: #fff;
+        }
+        h4 {
+          font-family: "Oswald";
+          font-size: 24px;
+          margin: 0;
+          opacity: 1;
+        }
+        td:first-child {
+          border-radius: 10px 0 0 10px;
+        }
+  
+        td:last-child {
+          border-radius: 0 10px 10px 0;
+        }
+      img{
+        height:15px;
+        width: 15px;
+        padding-right: 5px;
+      }
+    
